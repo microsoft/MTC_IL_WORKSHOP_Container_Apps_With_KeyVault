@@ -1,0 +1,4 @@
+node_modules
+npm-debug.log
+notes.txt
+workers-k8s.yaml

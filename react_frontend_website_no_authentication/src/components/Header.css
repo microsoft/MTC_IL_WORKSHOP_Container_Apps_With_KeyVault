@@ -1,0 +1,11 @@
+.header {
+    margin-bottom: 30px;
+}
+
+.image-title {
+    color: white;
+}
+
+.transperent {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25));
+}
