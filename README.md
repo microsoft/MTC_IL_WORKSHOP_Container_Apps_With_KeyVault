@@ -13,6 +13,8 @@
   - [Create ACR for Docker Images](#create-acr-for-docker-images)
   - [Dockerizing a Node.js Application](#dockerizing-a-nodejs-application)
   - [Create a Container App](#create-a-container-app)
+  - [Store SPN details in Container App Secrets](#store-spn-details-in-container-app-secrets)
+  - [Check your application](#check-your-application)
 
 ## Prerequisites
 - Azure Subscription
@@ -184,3 +186,26 @@
        - Check the Accepting traffic from anywhere
        - ```Target port``` - 8080
      - Hit Create
+
+## Store SPN details in Container App Secrets 
+1. Open your container app 
+2. In Container App blaid select Secrets 
+3. Click +Add 
+   - ```Key``` - azureclientid 
+   - ```Value``` - Client Id
+   - Click Add
+4. Click +Add 
+   - ```Key``` - azuretenantid 
+   - ```Value``` - Tenant Id
+   - Click Add
+5. Click +Add 
+   - ```Key``` - azureclientsecret 
+   - ```Value``` - Client Id Secret 
+   - Click Add 
+
+
+## Check your application 
+1. Open your container app 
+2. In Container App blaid select Overview 
+3. Open Application Url 
+4. Go to <Application Url>/api/partners
