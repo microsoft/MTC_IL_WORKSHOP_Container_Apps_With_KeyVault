@@ -8,9 +8,9 @@ exports.getConnection = async () => {
   // const credential = new DefaultAzureCredential();
 
   const credential = new ClientSecretCredential(
-    process.env.AZURE_TENANT_ID,
-    process.env.AZURE_CLIENT_ID,
-    process.env.AZURE_CLIENT_SECRET
+    process.env.azuretenantid,
+    process.env.azureclientid,
+    process.env.azureclientsecret
   )
 
   const keyVaultName = process.env["KEY_VAULT_NAME"] || 'containerappdemo'
