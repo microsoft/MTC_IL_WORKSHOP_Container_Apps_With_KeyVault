@@ -1,7 +1,7 @@
 # Container App Workshop
 
 ## Architecture
-<img src="./assets/Container_App_Architecture.png" alt="Container App Architecture" width="1200"/>
+<img src="./assets/Container_App_Architecture_azure.png" alt="Container App Architecture" width="1200"/>
 
 ## Table of Contents 
 - [Container App Workshop](#container-app-workshop)
