@@ -15,6 +15,7 @@
   - [Create a Container App](#create-a-container-app)
   - [Store SPN details in Container App Secrets](#store-spn-details-in-container-app-secrets)
   - [Check your application](#check-your-application)
+  - [Hosting Front End application on Azure Blob Storage](#hosting-front-end-application-on-azure-blob-storage)
 
 ## Prerequisites
 - Azure Subscription
@@ -208,4 +209,37 @@
 1. Open your container app 
 2. In Container App blaid select Overview 
 3. Open Application Url 
-4. Go to <Application Url>/api/partners
+4. Go to <Application Url>/api/partners  
+    <img src="./assets/API_OUTPUT.png" alt="API OUTPUT" width="500"/>    
+
+## Hosting Front End application on Azure Blob Storage
+1. Go to Azure Portal
+2. Create a resource - Storage account 
+3. In Storage account details:  
+    - ```Subscription``` - Choose your subscription
+    - ```Resource Group``` - Choose **containerappdemo** resource group
+    - ```Storage account name``` - Choose a unique name 
+    - ```Region``` - Choose West Europe
+    - ```Redundancy``` - LRS
+4. Hit Review 
+5. Hit Create
+6. Go to resource
+7. In left navigation panel choose ***Static website***
+8.  in Static Website details:
+   - ```Static website``` - Enabled
+   - ```index document name``` - index.html
+   - ```Error document path``` - index.html
+9.  Hit Save 
+10. Copy the Primary Endpoint url 
+11. Go your storage account and select ***Storage browser***
+12. In Blob containers select $web - It is the place where you upload a website.  
+13. Clone the git repo
+14. Open the project - ./react_frontend_website_no_authentication
+15. Edit Api.js file and change the baseUrl to your container app url 
+16. Run ```npm install```
+17. Run ```npm run build``` - Build a project and store it in a build directory
+18. Upload all files to $web directory in a storage account 
+19. In left navigation panel choose ***Static website***
+20. Copy the ***Primary endpoint*** url and test in your web browser
+21. Test the Web  
+ <img src="./assets/FRONT_END_UI.png" alt="FRONT_END_UI" width="800"/>    
