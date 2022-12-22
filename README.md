@@ -1,7 +1,11 @@
 # Container App Workshop
 
+## Architecture
+<img src="./assets/Container_App_Architecture.png" alt="Container App Architecture" width="1200"/>
+
 ## Table of Contents 
 - [Container App Workshop](#container-app-workshop)
+  - [Architecture](#architecture)
   - [Table of Contents](#table-of-contents)
   - [Prerequisites](#prerequisites)
 - [Steps](#steps)
