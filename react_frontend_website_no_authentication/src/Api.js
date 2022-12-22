@@ -5,7 +5,7 @@ import axios from 'axios';
  */
 const constants = {
     api: {
-        baseURL: 'https://partners.kindsky-cefd0099.westeurope.azurecontainerapps.io',
+        baseURL: '<Container App Base Url>',
     },
 };
 
