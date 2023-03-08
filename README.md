@@ -18,6 +18,7 @@
   - [Dockerizing a Node.js Application](#dockerizing-a-nodejs-application)
   - [Create a Container App](#create-a-container-app)
   - [Store SPN details in Container App Secrets](#store-spn-details-in-container-app-secrets)
+  - [Reference Secrets with Environment variables](#reference-secrets-with-environment-variables)
   - [Check your application](#check-your-application)
   - [Hosting Front End application on Azure Blob Storage](#hosting-front-end-application-on-azure-blob-storage)
 
