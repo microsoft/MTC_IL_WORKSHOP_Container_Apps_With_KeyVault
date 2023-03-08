@@ -208,6 +208,19 @@
    - ```Value``` - Client Id Secret 
    - Click Add 
 
+## Reference Secrets with Environment variables
+1. Open your container app 
+2. In Container App blaid select Containers
+3. Choose Edit and Deploy 
+4. Choose your container image 
+5. Go down to Environment variables
+6. Reference an environment variable to a secret
+  - azureclientid
+  - azuretenantid
+  - azureclientsecret
+7. Hit Save 
+8. Hit Create
+9. You should run the same revision that you have set your environment variables to
 
 ## Check your application 
 1. Open your container app 
