@@ -142,7 +142,6 @@
     --secret-permissions get list
    ```
 5. This service principal will only be able to list all secrets or get a specific secret. You can see this service principal in the Azure portal for your Key Vault
-6. TO DO 
 
 ## Create ACR for Docker Images 
 1. Go to Azure Portal
