@@ -183,7 +183,7 @@
    - Container Details:
      - ```Name``` - partners
      - ```Image source``` - Azure Container Registry
-     - ```Registry``` - Select the registry you created in the last step ( If you get an Error "Cannot access ACR because admin credentials on the ACR are disabled - Go to ACR and enbaled it - In ACR hit Update and check the Admin user box and hit Save)
+     - ```Registry``` - Select the registry you created in the last step ( If you get an Error "Cannot access ACR because admin credentials on the ACR are disabled - Go to ACR and enable it - In ACR hit Update and check the Admin user box and hit Save)
      - Select the image: partners 
      - Select the Image tag
      - ```Application ingress settings``` - 
